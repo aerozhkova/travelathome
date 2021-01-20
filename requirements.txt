@@ -1,0 +1,6 @@
+flask
+gunicorn
+wikipedia-api
+wikipedia
+wptools
+requests

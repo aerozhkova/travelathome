@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>#путешествуйдома</title>
+    <meta charset="utf-8">
+    <!-- Метатег Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="{{url_for('static', filename='w2.png')}}">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+    <style>
+        .navbar-dark .nav-link{
+                                color:#fff;
+                                font-weight:600
+                                }
+        li.nav-item.active,li.nav-item:hover,li.nav-item:focus{
+                                                                background-color:#556B2F;
+                                                                }
+        body{
+             background-image: url({{url_for('static', filename='15.jpg')}});
+             height: 100%;
+             background-position: center center;
+             background-repeat: repeat;
+             background-attachment: fixed;
+             background-size: cover;
+           }
+
+        .main_info{
+            text-align:center;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+         }
+
+        .text{
+            font-weight:600;
+            font-size:50px;
+            margin-bottom:30px;
+            text-transform: uppercase;
+        }
+        .btn.btn-lg.go{
+            background-color:#556B2F;
+            color:#fff;
+        }
+        span{
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            color:#556B2F;
+        }
+
+        span.1{
+            color:#8B0000;
+        }
+        span.2{
+            color:#556B2F;
+        }
+    </style>
+
+  </head>
+  <body>
+
+  <!-- Ваше содержимое начинается здесь -->
+    <header>
+        <div class="container">
+            <nav class="navbar fixed-top navbar-dark bg-dark">
+              <!-- Бренд -->
+                <a class="navbar-brand" href="/">#путешействуйдома</a>
+
+                <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/usage">Инструкция</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contacts">Контакты</a>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <main>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="main_info">
+                  <div class="text">
+                      <span class="1">&nbspИзвините, возникли технические неполадки&nbsp</span> <br><br>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+
+
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+
+
+
+
+
+  <!-- Ваше содержимое заканчивается здесь -->
+
+  <!-- JavaScript: размещается в конце документа, чтобы страницы загружались быстрее -->
+    <!-- Библиотека jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <!-- Последний скомпилированный и минимизированный Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

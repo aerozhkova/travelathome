@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>#путешествуйдома</title>
+    <meta charset="utf-8">
+    <!-- Метатег Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="{{url_for('static', filename='w2.png')}}">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+    <style>
+        .navbar-dark .nav-link{
+                                color:#fff;
+                                font-weight:600;
+                                }
+        li.nav-item.active,li.nav-item:hover,li.nav-item:focus{
+                                                                background-color:#556B2F;
+                                                                }
+        body{
+             background-image: url({{url_for('static', filename='06.jpg')}});
+             background-position: center center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: cover;
+             margin-top: 56px;
+             height: 100%;
+           }
+        .btn.btn-lg.go{
+            background-color:#556B2F;
+            color:#fff;
+        }
+        .contacts{
+            text-align: center;
+        }
+        .card-img-top{
+            width: 280px;
+            height: 250px;
+            padding: 10px;
+            text-align: center;
+        }
+        .card{
+            width: 280px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+        .card-body{
+            color: #000;
+        }
+        h1{
+            color: #fff;
+        }
+        .icons{
+            height: 20px;
+            width: 20px;
+        }
+        p{
+            align: left;
+        }
+        a {
+            color: red;
+            text-style: underlined;
+        }
+        a:visited {
+            color: #000;
+        }
+        a:active {
+            color: #556B2F;
+        }
+        .cards{
+            margin-top: 4rem;
+        }
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- Ваше содержимое начинается здесь -->
+    <header>
+        <div class="container">
+            <nav class="navbar fixed-top navbar-dark bg-dark">
+              <!-- Бренд -->
+                <a class="navbar-brand" href="/">#путешействуйдома</a>
+
+                <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/usage">Инструкция</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link active" href="/contacts">Контакты</a>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <main>
+      <div class="container contacts">
+          <div class="title-contacts"><h1 align="center">Наши контакты</h1></div>
+          <div class="container cards">
+              <div class="row">
+                  <div class="col">
+                      <div class="card">
+                          <img class="card-img-top" src="{{url_for('static', filename='alena4.jpg')}}" alt="Card image cap">
+                          <div class="card-body">
+                              <h5 class="card-title">Климова Алёна</h5>
+                              <p class="card-text"><img class="icons" src="{{url_for('static', filename='phone3.png')}}"> +7(800)555-35-35</p>
+                              <p class="card-text"><img class="icons" src="{{url_for('static', filename='vk.png')}}">   <a href="https://vk.com/id83543141">vk.com/id83543141</a></p>
+                              <p class="card-text"><img class="icons" src="{{url_for('static', filename='tg.png')}}"> @klimovaKQ</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card">
+                          <img class="card-img-top" src="{{url_for('static', filename='arina.JPG')}}" alt="Card image cap">
+                          <div class="card-body">
+                              <h5 class="card-title">Рожкова Арина</h5>
+                              <p class="card-text"><img class="icons" src="{{url_for('static', filename='phone3.png')}}"> +7(800)555-35-35</p>
+                              <p class="card-text"><img class="icons" src="{{url_for('static', filename='vk.png')}}">   <a href="https://vk.com/aerozhkova">vk.com/aerozhkova</a></p>
+                              <p class="card-text"><img class="icons" src="{{url_for('static', filename='tg.png')}}"> @aerozhkova</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+
+
+
+
+
+  <!-- Ваше содержимое заканчивается здесь -->
+
+  <!-- JavaScript: размещается в конце документа, чтобы страницы загружались быстрее -->
+    <!-- Библиотека jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <!-- Последний скомпилированный и минимизированный Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

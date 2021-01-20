@@ -1,0 +1,42 @@
+<div id="wrapMap">
+    <iframe style="pointer-events: none;" src="{{ map_link }}" width="100%" height="450" frameborder="0"></iframe>
+</div>
+<script>
+    var mapTitle = document.createElement('div'); mapTitle.className = 'mapTitle';
+    mapTitle.textContent = 'Для активации карты нажмите по ней';
+    wrapMap.appendChild(mapTitle);
+
+    wrapMap.onclick = function() {
+        this.children[0].removeAttribute('style');
+        mapTitle.parentElement.removeChild(mapTitle);
+    }
+    wrapMap.onmousemove = function(event) {
+        mapTitle.style.display = 'block';
+        if(event.offsetY > 10) mapTitle.style.top = event.offsetY + 20 + 'px';
+        if(event.offsetX > 10) mapTitle.style.left = event.offsetX + 20 + 'px';
+    }
+    wrapMap.onmouseleave = function() {
+        mapTitle.style.display = 'none';
+    }
+</script>
+<style>
+#wrapMap {
+    position: relative;
+    cursor: help;
+    overflow: hidden;
+}
+.mapTitle {
+    position: absolute;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px;
+    display: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+}
+</style>
+

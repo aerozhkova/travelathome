@@ -1,0 +1,52 @@
+{
+    "Россия": {
+        "code": "RU",
+        "title": "Россия",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3A15f75b636268707143a847ec8832146d4c96b070cf530ef9193dfe93e36e7888&amp"
+    },
+    "Италия": {
+        "code": "IT",
+        "title": "Италия",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3Afd308ad0316a0e2f97f5425389f7dc2e75898e769909f1e416b2506b61bed736&amp"
+    },
+    "Франция": {
+        "code": "FR",
+        "title": "Франция",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3A7cdb78ca3a5e9762510cbff234b12d1f7dcf911d931cfaa7c86499913862c219&amp"
+    },
+    "Германия": {
+        "code": "DE",
+        "title": "Германия",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3A047e65b577a6c266e89ee5a735cac3f21b1163b7d28015cfa86c3b9bfa88fae7&amp"
+    },
+    "Великобритания": {
+        "code": "GB",
+        "title": "Великобритания",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3A633490386b57338b78b885116b7625de14caa37cd5d158d5b6c07d115294825e&amp"
+    },
+    "Испания": {
+        "code": "ES",
+        "title": "Испания",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3A1dbd1e08cf7445f8786a595bbf8fc06713598f405505302047ca346ca935a8e6&amp"
+    },
+    "Швеция": {
+        "code": "SE",
+        "title": "Швеция",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3A203226f02639c416a1eed349fd21ea31a1ad1e3acef61c33c57c35e70bdc5b45&amp"
+    },
+    "Норвегия": {
+        "code": "NO",
+        "title": "Норвегия",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3A5fd34f9998dbb8d52c67793685eb9a156fe5c3725a1b08f031c52ae572b114eb&amp"
+    },
+    "Австрия": {
+        "code": "AT",
+        "title": "Австрия",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3A435b5a27fefe1a4281a08f059863162cb66b3ed571ac48542ff8ebab4557432d&amp"
+    },
+    "Польша": {
+        "code": "PL",
+        "title": "Польша",
+        "map": "https://yandex.ru/map-widget/v1/?um=constructor%3Aa4eab72ccd3e8aee17e0f93b6bce0188629fecc396538893195f2cd390fd8d00&amp"
+    }
+}

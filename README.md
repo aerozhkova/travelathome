@@ -1,4 +1,5 @@
 # travelathome
+Сайт онлайн-путешествий по 10 странам
 
 Можно заценить на https://travelathome.herokuapp.com/
 
